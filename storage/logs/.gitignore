@@ -1,0 +1,9 @@
+*
+!.gitignore
+/storage/*.key
+/vendor
+/.vscode
+.env
+/public/uploads
+/composer.lock
+/public/storage
