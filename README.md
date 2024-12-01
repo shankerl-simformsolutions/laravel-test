@@ -50,7 +50,7 @@ php artisan test --coverage --testsuite=Feature
 php artisan test --coverage --testsuite=Integration
 
 # Generate HTML coverage report
-php artisan test --coverage-html coverage/
+./vendor/bin/pest --coverage --min=0 --coverage-html=./coverage
 ```
 
 ## Test Automation Strategy
@@ -109,3 +109,11 @@ composer require --dev phpunit/php-code-coverage
 2. Update tests when requirements change
 3. Review and refactor test code
 4. Document test scenarios and edge cases
+
+## Screenshot of Test Coverage Dashboard
+
+![image](https://github.com/user-attachments/assets/010639d6-6162-4bca-99a4-c17bff1793e9)
+
+![image](https://github.com/user-attachments/assets/8647fbf9-7fd8-49af-a2ba-d739a3302005)
+
+![image](https://github.com/user-attachments/assets/8613441a-c1c5-4509-949b-4e541b272df5)
