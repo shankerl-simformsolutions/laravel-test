@@ -1,6 +1,3 @@
-# laravel-test
-Set up the laravel test with Unit, Functional, Integration with code coverage analysis
-
 # Test Automation and Code Coverage Guide
 
 ## Test Structure
