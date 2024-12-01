@@ -4,10 +4,11 @@ Set up the laravel test with Unit, Functional, Integration with code coverage an
 ## Install dependency using the composer command to set up the required dependency
 1. Run git clone https://github.com/jeremykenedy/laravel-auth.git laravel-auth
 2. Create a MySQL database for the project
-3. From the projects root run cp .env.example .env
-4. Configure your .env file
-5. Install composer, php-mysql, php-ext and php-dom (dependent on your distribution, For Debian run apt install composer php-mysql php-ext php-dom)
-6. Run composer update from the project root folder
+3. Run php artisan migrate & php artisan db:seed
+4. From the projects root run cp .env.example .env
+5. Configure your .env file
+6. Install composer, php-mysql, php-ext and php-dom (dependent on your distribution, For Debian run apt install composer php-mysql php-ext php-dom)
+7. Run composer update from the project root folder
 
 # Test Automation and Code Coverage Guide
 
