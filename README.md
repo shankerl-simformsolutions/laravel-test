@@ -2,7 +2,7 @@
 Set up the laravel test with Unit, Functional, Integration with code coverage analysis
 
 ## Install dependency using the composer command to set up the required dependency
-1. Run git clone https://github.com/jeremykenedy/laravel-auth.git laravel-auth
+1. Run git clone https://github.com/shankerl-simformsolutions/laravel-test
 2. Create a MySQL database for the project
 3. Run php artisan migrate & php artisan db:seed
 4. From the projects root run cp .env.example .env
